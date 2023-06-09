@@ -10,6 +10,3 @@ function refreshKey() {
             console.error(error);
         });
 }
-
-// canudbWrite("chei", "ups")
-// canudbRead("chei")
