@@ -5,6 +5,7 @@
   "main": "script.js",
   "scripts": {
     "start": "node server.js",
+    "build": "webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,5 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0"
   }
 }
